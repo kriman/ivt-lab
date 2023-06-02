@@ -1,0 +1,7 @@
+1. Spaceship successfully fires laser
+2. Firing single torpedo fails beacuse both stores are empty
+3. Firing single torpedo, but the secondary store is used because the primary is empty
+4. Firing all torpedos fail because the store is empty
+5. A single torpedo is fired two times, first from the primary and then from the secondary
+
+6. CASE: SINGLE, !wasPrimaryFiredLast, !primaryTorpedoStore.isEmpty() -> firingSuccess == false
